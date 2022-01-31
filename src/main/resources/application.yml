@@ -2,11 +2,11 @@ spring:
   data:
     elasticsearch:
       # 是否开启本地缓存
-      repositories:
-        enabled: false
+      #repositories:
+        #enabled: false
       # 9300这个端口是TCP端口，Java是使用TCP连接
       # 9200这个端口是Http api端口
-      cluster-nodes: localhost:9301
+      #cluster-nodes: localhost:9301
   redis:
     port: 6379
     host: localhost
